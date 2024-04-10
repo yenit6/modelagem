@@ -1,0 +1,50 @@
+body {
+    background-image: url(../images/d.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.central {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 990px;
+    height: 3000px;
+    font-family: sans-serif;
+    background-image: url(../images/brasao-da-bahia.png);
+    background-size: cover ;
+    color:rgb(0, 0, 0);
+
+    
+
+}
+
+.central button {
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.central input {
+
+    height: 20px;
+    font-family: sans-serif;
+border-radius: 20px;
+cursor: pointer;
+
+}
+
+.central input:focus{
+    background: rgb(207, 198, 198);
+}
+
+.central button:focus{
+    background: rgb(207, 198, 198);
+}
